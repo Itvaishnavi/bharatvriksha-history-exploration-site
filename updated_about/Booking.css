@@ -1,0 +1,105 @@
+#b1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    background-image: url(uploads/back.jpg);
+   
+  }
+  
+  form {
+    
+    width: 320px;
+    height: auto;
+    margin: 50px;
+    background-size: cover;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid #fff;
+    padding: 20px;
+  }
+  
+  .container {
+    
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid #fff;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #121212;
+    background: transparent;
+    color: #fff;
+    padding-left: 5px;
+  }
+  
+  .form-control::placeholder {
+    color: #121212;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    color:#121212;
+  }
+  
+  .form-control:focus {
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #121212;
+    color: #fff;
+    padding: 5px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:blue;
+  }
+  input[type="button"] {
+    width: 100%;
+    background-color: #121212;
+    color: #fff;
+    padding: 5px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  input[type="button"]:hover {
+    background-color:blue;
+  }
+  #containt{
+    height:170px;
+    width:100%;
+    background-color: #C996CC;
+    padding:10px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    overflow:hidden;
+  }
